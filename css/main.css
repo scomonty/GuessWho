@@ -1,0 +1,44 @@
+body {
+	background-color: #feca26;
+}
+
+.container h1 {
+	text-align: center;
+	font-size: 75px;
+	font-family: 'Chango', cursive;
+	color: #de1125;
+	text-shadow: -3px 0 #fff, 0 3px #fff, 3px 0 #fff, 0 -3px #fff;
+}
+
+.picture {
+	border: 5px solid blue;
+	border-radius: 5px;
+	margin: 2.5px;
+}
+
+.randomCard, .restart {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.notChoice {
+	opacity: .2;
+}
+
+
+.randomCard {
+	border: 5px solid #de1125;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.restart {
+	font-family: 'Chango', cursive;
+	font-size: 20px;
+	color: #de1125;
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+	background-color: blue;
+	border-radius: 10px;
+}
